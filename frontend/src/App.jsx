@@ -1,5 +1,5 @@
 import React from 'react'
-import {CandidatePage, Home} from './pages/pageIndex'
+import {VotingPage, Home} from './pages/index'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 
@@ -9,7 +9,7 @@ export default function App() {
     <Header/>
     <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='/party' element={<CandidatePage/>} />
+      <Route path='/candidatePage' element={<VotingPage/>} />
     </Routes>
     </BrowserRouter>
 
