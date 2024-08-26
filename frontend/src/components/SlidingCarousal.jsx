@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
+import { NavLink } from "react-router-dom";
 
 export default function SlidingCarousal() {
   return (
@@ -79,7 +80,7 @@ export default function SlidingCarousal() {
     <div className="absolute inset-0 flex flex-col justify-center items-center z-10">
         <h2 className="text-white text-6xl font-bold"><span className="text-orange-500">Vote</span> Now</h2>
         <p className="text-white text-2xl mt-2">Security Ki Baath, <span className="text-orange-500">VoteSathi</span> Ki Saath!</p>
-        <button className="mt-4 px-8 py-2 bg-green-400 hover:bg-green-500 text-white rounded-lg text-lg">Vote</button>
+        <NavLink to='/votingPage'><button className="mt-4 px-8 py-2 bg-green-400 hover:bg-green-500 text-white rounded-lg text-lg">Vote</button></NavLink>
       </div>
     </div>
   );
