@@ -108,7 +108,7 @@ export default function SlidingCarousal() {
         <h2 className="text-white text-6xl font-bold">
           <span className="text-orange-500">Vote</span> Now
         </h2>
-        <p className="text-white text-2xl mt-2">
+        <p className="text-white md:text-2xl text-md mt-2">
           Security Ki Baath, <span className="text-orange-500">VoteSathi</span>{" "}
           Ke Saath!
         </p>
