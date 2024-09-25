@@ -11,6 +11,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,scss,md}\""
   },
   "dependencies": {
+    "ethers": "^6.13.2",
     "lucide-react": "^0.428.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
