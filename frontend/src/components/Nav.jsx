@@ -10,9 +10,6 @@ const NavLinks = ({ user, handleLogout, isMobile }) => {
       <NavLink to="/" className="text-white font-semibold">
         Home
       </NavLink>
-      <NavLink to="/about" className="text-white font-semibold">
-        About
-      </NavLink>
       {user && (
         <div className="flex items-center gap-3">
           {!isMobile && ( // Hide the profile image on mobile, but still show it on full screen
